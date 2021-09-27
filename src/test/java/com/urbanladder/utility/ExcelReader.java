@@ -18,7 +18,7 @@ public class ExcelReader {
 	public static XSSFSheet xcel() throws IOException
 	{
 		
-		FileInputStream file= new FileInputStream("C:\\Users\\User\\Desktop\\myselenium\\UrbanLadder\\Excel\\manasa.xlsx");
+		FileInputStream file= new FileInputStream("C:\\Users\\User\\Desktop\\UrbanLadder\\Excel\\manasa.xlsx");
 		XSSFWorkbook workbook=new XSSFWorkbook(file);
 		int count1=workbook.getNumberOfSheets();
 		
