@@ -10,7 +10,7 @@ public static Properties prop=new Properties();
 	public static  Properties loadfile() throws FileNotFoundException
 	{
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\User\\Desktop\\myselenium\\UrbanLadder\\config.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\User\\Desktop\\UrbanLadder\\config.properties");
 		try {
 			prop.load(fis);
 		} catch (Exception e) {
