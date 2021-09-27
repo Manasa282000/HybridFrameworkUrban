@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.urbanladder.utility.ITests"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.urbanladder.runner.TestRunner">
+        <methods>
+          <include name="homepageliving"/>
+          <include name="dining"/>
+          <include name="addtocart"/>
+        </methods>
+      </class> <!-- com.urbanladder.runner.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
